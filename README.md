@@ -17,4 +17,8 @@ An overview of the process for setting up CTS controllers to connect and output 
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/)
 - [Python](https://www.python.org/downloads/)
 - [Pygame](https://www.pygame.org/download.shtml)
+or run: `python3 -m pip install -U pygame --user`</br>
+```
+python3 -m pip install -U pygame --user
+```
 - [Pynput](https://pypi.org/project/pynput/#files)
