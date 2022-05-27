@@ -14,3 +14,9 @@ An overview of the process for setting up CTS controllers to connect and output 
 ---
 
 ## 1. Packages & Installations
+- Visual Studio
+- blah
+- Python
+- blah
+- Pygame
+- Pynput
