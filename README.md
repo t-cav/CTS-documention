@@ -6,3 +6,7 @@
 3. Connection to Socket with Python
 4. Run Pygame demos
 5. Pynput Keyboard Control
+
+---
+
+## 1. Packages & Installations
