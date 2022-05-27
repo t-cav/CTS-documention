@@ -1,7 +1,8 @@
+`⚠️ Windows computers only`
 # CTS Documention
 
 An overview of the process for setting up CTS controllers to connect and output data onto a computer. </br>
-***Windows preferred
+
 
 ## Table of Contents
 1. Packages & Installations
