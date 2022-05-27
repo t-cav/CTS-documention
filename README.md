@@ -19,3 +19,22 @@ An overview of the process for setting up CTS controllers to connect and output 
 - [Pygame](https://www.pygame.org/download.shtml)
 or run: `python3 -m pip install -U pygame --user`</br>
 - [Pynput](https://pypi.org/project/pynput/#files)
+
+---
+
+### 2. Visual Studio .NET Visualizer
+
+---
+
+### 3. Connection to Socket
+
+---
+
+4. Pygame Demos
+
+---
+
+5. Pynput Keyboard Control
+
+
+---
