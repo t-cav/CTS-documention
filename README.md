@@ -1,6 +1,6 @@
 # CTS Documention
 
-An overview of the process for setting up CTS controllers to recieve the output data for touch.
+An overview of the process for setting up CTS controllers to connect and output data onto a computer. (***Windows preferred)
 
 ## Table of Contents
 1. Packages & Installations
