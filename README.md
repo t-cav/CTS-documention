@@ -30,11 +30,11 @@ or run: `python3 -m pip install -U pygame --user`</br>
 
 ---
 
-4. Pygame Demos
+### 4. Pygame Demos
 
 ---
 
-5. Pynput Keyboard Control
+### 5. Pynput Keyboard Control
 
 
 ---
