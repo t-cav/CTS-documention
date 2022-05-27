@@ -1,5 +1,7 @@
 # CTS Documention
 
+An overview of the process for setting up CTS controllers to recieve the output data for touch.
+
 ## Table of Contents
 1. Packages & Installations
 2. Run .NET Visualizer
