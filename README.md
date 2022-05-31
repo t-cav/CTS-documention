@@ -52,6 +52,16 @@ Step-by-Step:
 
 ### 4. Pygame Demos
 
+Steps:
+1. With pygame created, implement `socket.py` into pygame file
+2. Do this first (insert screenshot)
+3. Then put this here (insert screenshot)
+4. Set threshold depending on input values
+5. Set controls using if statement threshold
+6. Open Visual Studio BLANK project folder.
+7. Run BLANK file.
+8. Then, run pygame file.
+9. Connection should now be successful.
 ---
 
 ### 5. Pynput Keyboard Control
