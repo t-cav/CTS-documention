@@ -46,8 +46,9 @@ Step-by-Step:
   ```
   This is going to be some example code
   ```
-  5. 
-
+  5. No data on first try, run again
+  6. When input data is skewed
+    - reflash the device by uploading the Arduino sketch again
 ---
 
 ### 4. Pygame Demos
