@@ -23,6 +23,15 @@ or run: `python3 -m pip install -U pygame --user`</br>
 ---
 
 ### 2. Visual Studio .NET Visualizer
+- Plug CTS controller into computer
+- Open Arduino file called BLANK
+- Make sure ports are set up correctly and upload Ardunio code to board
+- Go to Visual Studio and open BLANK project folder
+- Open BLANK file
+- Make sure the port number is correctly assigned:
+```
+This is going to be some example code
+```
 
 ---
 
