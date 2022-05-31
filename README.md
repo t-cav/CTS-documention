@@ -2,7 +2,7 @@
 # CTS Documention
 
 An overview of the process for setting up CTS controllers to connect and output data onto a computer. </br>
-
+For a brief overview of the project itself, visit this [demo.](https://tpcav.github.io/CTS/)
 
 ## Table of Contents
 1. Packages & Installations
