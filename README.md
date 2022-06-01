@@ -142,7 +142,7 @@ mouse.scroll(0, -0.20)
 mouse.scroll(0, 0.20)
 ```
 8. Control mouse click with the code below:
-```
+``` Python
 # Single left click (2 for double click)
 mouse.click(Button.left, 1)
 # Single right click
