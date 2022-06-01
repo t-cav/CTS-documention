@@ -37,9 +37,8 @@ Steps:
   <img src="teensy-menu-1.png" width="90%" />
   </p>
   
-  3. Plug CTS controller into computer.
-  4. Open Arduino file called ``Teensy_3_6_Gain_Fireware``.
-  5.  Make sure the port number is correctly assigned:
+  3. Open Arduino file called ``Teensy_3_6_Gain_Fireware``.
+  4.  Make sure the port number is correctly assigned:
 ```
 This is going to be some example code
 ```
