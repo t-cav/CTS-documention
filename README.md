@@ -30,10 +30,10 @@ Steps:
   1. Make sure Teensyduino is installed and connected to Arduino application, see photos below:
   
   <p align="center">
-  <img src="teensy-menu-0.png" />
+  <img src="teensy-menu-0.png" width="90%" />
   </p>
   <p align="center">
-  <img src="teensy-menu-1.png" />
+  <img src="teensy-menu-1.png" width="90%" />
   </p>
   
   2. Plug CTS controller into computer.
