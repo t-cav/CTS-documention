@@ -10,6 +10,8 @@ An overview of the process for setting up CTS controllers to connect and output 
 3. Connection to Socket
 4. Pygame Demos
 5. Pynput Keyboard Control
+6. Possible Problems
+7. Understanding CTS controller
 
 ---
 
