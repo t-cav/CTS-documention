@@ -123,22 +123,18 @@ while True:
 
 5. Specify threshold for controller data.
 6. Set controls using if statement threshold.
-7. Control scroll or click with the code below:
+7. Control scroll with the code below:
 ```
 # Scroll down
 mouse.scroll(0, -0.20)
 # Scroll up
 mouse.scroll(0, 0.20)
-
+```
+8. Control mouse click with the code below:
+```
 # Single left click (2 for double click)
 mouse.click(Button.left, 1)
 # Single right click
 mouse.click(Button.right, 1)
-
-
-```
-8. Control mouse with the code below:
-```
-Mouse example code goes here
 ```
 ---
