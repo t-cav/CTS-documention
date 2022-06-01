@@ -54,7 +54,7 @@ Steps:
   1. Open Visual Studio BLANK project folder.
   2. Run BLANK file.
   3. Open `socket.py` file which uses the following to make a connection & recive data:
-  ```
+  ``` python
 import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -96,12 +96,12 @@ Steps:
 Steps:
 1. Create a new python file.
 2. Now put the following at the top:
-```
+``` python
 import socket
 from pynput.mouse import Button, Controller
 ```
 3. Implement `socket.py` into pynput file, for example:
-```
+``` python
 import socket
 from pynput.mouse import Button, Controller
 
@@ -135,7 +135,7 @@ while True:
 5. Specify threshold for controller data.
 6. Set controls using if statement threshold.
 7. Control scroll with the code below:
-```
+``` python
 # Scroll down
 mouse.scroll(0, -0.20)
 # Scroll up
