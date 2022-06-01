@@ -11,7 +11,7 @@ An overview of the process for setting up CTS controllers to connect and output 
 4. Pygame Demos
 5. Pynput Keyboard Control
 6. Possible Problems
-7. Understanding CTS controller
+7. Understanding CTS Controller
 
 ---
 
@@ -150,4 +150,12 @@ mouse.click(Button.left, 1)
 # Single right click
 mouse.click(Button.right, 1)
 ```
+---
+
+### Possible Problems
+
+---
+
+### Understanding CTS Controller
+
 ---
