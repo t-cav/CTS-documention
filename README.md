@@ -15,6 +15,7 @@ An overview of the process for setting up CTS controllers to connect and output 
 
 ### 1. Packages & Installations
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/) (2019 or 2022)
+- [Arduino](https://www.arduino.cc/en/software)
 - [Teensyduino](https://www.pjrc.com/teensy/td_download.html)
 - [Python](https://www.python.org/downloads/)
 - [Pygame](https://www.pygame.org/download.shtml)
@@ -26,9 +27,10 @@ or run: `python3 -m pip install -U pygame --user`</br>
 ### 2. Visual Studio .NET Visualizer
 
 Steps:
-  1. Plug CTS controller into computer.
-  2. Open Arduino file called ``Teensy_3_6_Gain_Fireware``.
-  6. Make sure the port number is correctly assigned:
+  1. Make sure Teensyduino is installed and connected to Arduino application, see photo below:
+  2. Plug CTS controller into computer.
+  3. Open Arduino file called ``Teensy_3_6_Gain_Fireware``.
+  4.  Make sure the port number is correctly assigned:
 ```
 This is going to be some example code
 ```
