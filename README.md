@@ -15,6 +15,7 @@ An overview of the process for setting up CTS controllers to connect and output 
 
 ### 1. Packages & Installations
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/) (2019 or 2022)
+- [Node.js](https://nodejs.org/en/download/)
 - [Arduino](https://www.arduino.cc/en/software)
 - [Teensyduino](https://www.pjrc.com/teensy/td_download.html)
 - [CMake](https://cmake.org/download/)
