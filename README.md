@@ -27,7 +27,8 @@ or run: `python3 -m pip install -U pygame --user`</br>
 ### 2. Visual Studio .NET Visualizer
 
 Steps:
-  1. Make sure Teensyduino is installed and connected to Arduino application, see photos below:
+  1. Plug CTS controller into computer.
+  2. Make sure Teensyduino is installed and connected to Arduino application, see photos below:
   
   <p align="center">
   <img src="teensy-menu-0.png" width="90%" />
@@ -36,9 +37,9 @@ Steps:
   <img src="teensy-menu-1.png" width="90%" />
   </p>
   
-  2. Plug CTS controller into computer.
-  3. Open Arduino file called ``Teensy_3_6_Gain_Fireware``.
-  4.  Make sure the port number is correctly assigned:
+  3. Plug CTS controller into computer.
+  4. Open Arduino file called ``Teensy_3_6_Gain_Fireware``.
+  5.  Make sure the port number is correctly assigned:
 ```
 This is going to be some example code
 ```
