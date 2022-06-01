@@ -15,6 +15,7 @@ An overview of the process for setting up CTS controllers to connect and output 
 
 ### 1. Packages & Installations
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/) (2019 or 2022)
+- [Teensyduino](https://www.pjrc.com/teensy/td_download.html)
 - [Python](https://www.python.org/downloads/)
 - [Pygame](https://www.pygame.org/download.shtml)
 or run: `python3 -m pip install -U pygame --user`</br>
@@ -26,10 +27,7 @@ or run: `python3 -m pip install -U pygame --user`</br>
 
 Steps:
   1. Plug CTS controller into computer.
-  2. Open Arduino file called BLANK.
-  3. Make sure ports are set up correctly and upload Ardunio code to board.
-  4. Go to Visual Studio and open BLANK project folder.
-  5. Open BLANK file.
+  2. Open Arduino file called ``Teensy_3_6_Gain_Fireware``.
   6. Make sure the port number is correctly assigned:
 ```
 This is going to be some example code
@@ -44,7 +42,23 @@ Steps:
   2. Run BLANK file.
   3. Open `socket.py` file which uses the following to make a connection & recive data:
   ```
-  This is going to be some example code
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+remote_ip = socket.gethostname()
+s.connect((remote_ip, 8888))
+
+while True:
+    data = s.recv(1024)
+    sf = str(data).split(',')[0]
+
+    # Filter out digits from string data
+    only_digits = "".join([c for c in sf if c.isdigit()]) 
+
+    # Convert string data to float
+    f = int(only_digits)
+
+    print(f)
   ```
   5. No data on first try, run all programs again in same order.
   6. If input data is skewed, reflash the device by uploading the Arduino sketch again.
