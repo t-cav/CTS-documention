@@ -86,16 +86,56 @@ Steps:
 1. Create a new python file.
 2. Now put the following at the top:
 ```
-import pynput
-import BLANK
-import BLANK2
+import socket
+from pynput.mouse import Button, Controller
 ```
-3. Implement `socket.py` into pynput file.
-4. Specify threshold for controller data.
-5. Set controls using if statement threshold.
-6. Control scroll with the code below:
+3. Implement `socket.py` into pynput file, for example:
 ```
-scroll example code goes here
+import socket
+from pynput.mouse import Button, Controller
+
+# Mouse Stuff
+mouse = Controller()
+
+# Socket Stuff
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+remote_ip = socket.gethostname()
+s.connect((remote_ip, 8888))
+
+while True:
+    # Recieve data
+    data = s.recv(1024)
+    sf = str(data).split(',')[0]
+
+    # Filter out digits from string data
+    only_digits = "".join([c for c in sf if c.isdigit()])
+
+    # Convert string data to float
+    f = int(only_digits)
+
+   # Threshold range for CTS actions
+    if f < 430000:
+        mouse.scroll(0, -0.20)
+        # mouse.click(Button.left, 1)
+    if f > 590000:
+        mouse.scroll(0, 0.20)
+```
+
+5. Specify threshold for controller data.
+6. Set controls using if statement threshold.
+7. Control scroll or click with the code below:
+```
+# Scroll down
+mouse.scroll(0, -0.20)
+# Scroll up
+mouse.scroll(0, 0.20)
+
+# Single left click (2 for double click)
+mouse.click(Button.left, 1)
+# Single right click
+mouse.click(Button.right, 1)
+
+
 ```
 8. Control mouse with the code below:
 ```
