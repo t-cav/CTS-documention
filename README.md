@@ -33,10 +33,10 @@ Steps:
   2. Make sure Teensyduino is installed and connected to Arduino application, see photos below:
   
   <p align="center">
-  <img src="teensy-menu-0.png" width="90%" />
+  <img src="teensy-menu-0.png" />
   </p>
   <p align="center">
-  <img src="teensy-menu-1.png" width="90%" />
+  <img src="teensy-menu-1.png" />
   </p>
   
   3. Open Arduino file called ``Teensy_3_6_Gain_Fireware``.
