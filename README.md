@@ -4,9 +4,8 @@
 An overview of the process for setting up CTS controllers to connect and output data onto a computer. </br>
 - For a brief overview of the project itself, visit this [demo.](https://tpcav.github.io/CTS/)
 
-  <p align="center">
-  <img src="CTSgooglemapsDEMO(1).mp4" />
-  </p>
+
+![Google Maps Demo](googlemaps.mp4)
 
 ## Table of Contents
 1. Packages & Installations
