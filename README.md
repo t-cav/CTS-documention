@@ -4,11 +4,6 @@
 An overview of the process for setting up CTS controllers to connect and output data onto a computer. </br>
 - For a brief overview of the project itself, visit this [demo.](https://tpcav.github.io/CTS/)
 
-
-  <p align="center">
-  <img src="googlemaps.mp4" />
-  </p>
-
 ## Table of Contents
 1. Packages & Installations
 2. Visual Studio .NET Visualizer
